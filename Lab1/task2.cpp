@@ -14,6 +14,7 @@ void task2() {
     cin >> x >> y;
     
     cout << "Answer: ";
+
     printf("[%d, %d], ", x+1, y);
     printf("[%d, %d], ", x, y+1);
     printf("[%d, %d], ", x-1, y);

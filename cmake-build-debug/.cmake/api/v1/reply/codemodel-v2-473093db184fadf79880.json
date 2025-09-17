@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "D:/Work/MMF/C++Lab11/cmake-build-debug",
-		"source" : "D:/Work/MMF/C++Lab11"
+		"build" : "C:/Work/mmf/mmf_11_prog_lab/cmake-build-debug",
+		"source" : "C:/Work/mmf/mmf_11_prog_lab"
 	},
 	"version" : 
 	{

@@ -7,7 +7,7 @@
 #include <vector>
 #include <algorithm>
 
-using namespace std; 
+using namespace std;
 
 void task1() {
     
@@ -18,8 +18,18 @@ void task1() {
         cin >> t;
         v.push_back(t);
     }
-    ranges::sort(v);
+    for (int i = 0; i < v.size(); i++)
+    {
+        for (int j = 0; j < v.size()-i-1; j++)
+        {
+            if (v[j] > v[j+1])
+            {
+                int t = v[j+1];
+                v[j+1] = v[j];
+                v[j] = t;
+            }
+        }
+    }
     cout << v[0] * v[1];
     
 }
-
